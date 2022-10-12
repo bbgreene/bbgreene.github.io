@@ -1,4 +1,4 @@
-Brian Greene's Portfoltio website
+Brian Greene's Portfoltio Website
 
 https://bbgreene.github.io/
 
