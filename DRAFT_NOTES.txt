@@ -1,0 +1,15 @@
+Brian B Greene site draft
+
+Open index.html in a browser to review the four pages. This is a local draft and has not been uploaded to GitHub.
+
+Home leads with Tape Matter Memory. Music contains seven releases and two film scores in descending order. Explorations begins with six audio plug-ins and is intended to grow through sketches, notes and other ongoing ideas, while the existing projects.html address remains unchanged. About contains the bio and contact details. The old plugins.html address passes through to Explorations, retaining anchor links when JavaScript is enabled.
+
+The small Bandcamp players use To Wish on a Broadcast for Tape Matter Memory, Loud as you come for Satsuma, All is Real for Echo & Xplode, Remote Relations for Remote Relations, Batteria for Kab Driver and All Too Heavy for Boxcutter.
+
+The Bandcamp listing for A Familiar Sound contains no playable track, so this entry retains its Bandcamp and YouTube links without an embedded player. The Kab Driver description was updated after checking the album credits, which name Brian Greene on three tracks rather than one.
+
+The current GitHub Pages address is used in canonical metadata. If you later adopt a custom domain, the canonical and social page URLs should be updated at that time.
+
+The release timeline scrolls horizontally on smaller screens. The copyright year is updated automatically by assets/js/site.js. Bandcamp does not provide a supported control API for coordinating separate embedded players, so the page leaves playback control to each native Bandcamp frame.
+
+The ZIP is a review copy. It does not contain the repository's full Git history. Keep the original GitHub Download ZIP backup as well.

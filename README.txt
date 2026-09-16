@@ -1,6 +1,8 @@
-Brian Greene's Portfoltio Website
+Brian B Greene website
 
 https://bbgreene.github.io/
+
+Music, releases, film work, audio tools, biography and contact.
 
 Made using:
 

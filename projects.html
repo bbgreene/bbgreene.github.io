@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Explorations: ongoing work and ideas | Brian B Greene</title>
+  <meta name="description" content="Ongoing work and ideas by Brian B Greene, beginning with the Olumay DSP audio tools and expanding over time through sketches, notes and experiments.">
+  <link rel="canonical" href="https://bbgreene.github.io/projects.html">
+  <meta property="og:type" content="website">
+  <meta property="og:title" content="Explorations: ongoing work and ideas | Brian B Greene">
+  <meta property="og:description" content="Ongoing work and ideas by Brian B Greene, beginning with the Olumay DSP audio tools and expanding over time through sketches, notes and experiments.">
+  <meta property="og:url" content="https://bbgreene.github.io/projects.html">
+  <meta property="og:image" content="https://bbgreene.github.io/images/CURB.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="assets/css/site.css">
+</head>
+<body>
+  <a class="skip-link" href="#content">Skip to content</a>
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="site-name" href="index.html" aria-label="Brian B Greene, home">Brian B Greene</a>
+      <nav aria-label="Main navigation">
+<a href="index.html" >Home</a>
+<a href="music.html" >Music</a>
+<a href="projects.html" aria-current="page">Explorations</a>
+<a href="aboutme.html" >About</a>
+</nav>
+    </div>
+  </header>
+  <main id="content">
+<section class="page-intro content-width">
+<span class="eyebrow">Ongoing work and ideas</span>
+<h1>Explorations</h1>
+<p>A space for experiments, processes and ideas.</p>
+</section>
+<section class="tools-section tools-section-first">
+<div class="content-width">
+<div class="section-heading">
+<span class="eyebrow">Olumay DSP</span>
+<h2>Audio tools</h2>
+<p>Six audio plug-ins developed with JUCE. Each tool remains available here with its technical notes, downloads and source code.</p>
+</div>
+<div class="tool-grid">
+<article class="tool-card" id="curb">
+<img src="images/CURB.png" alt="CURB audio plug-in interface" loading="lazy">
+<div>
+<span class="eyebrow">Audio plug-in</span>
+<h3>CURB</h3>
+<p>A four-band dynamics processor for shaping frequency and dynamic response, with upward and downward compression.</p>
+<details>
+<summary>Technical details and downloads</summary>
+<p>A multiband dynamics VST3 plug-in made with JUCE. Can be used to sculpt frequency and dynamic responses of instruments, offering solutions to creative and corrective mixing scenarios. The four bands allow for downward and upward compression. Each band can be soloed after processing or bypassed. Each compressor contains threshold, ratio, attack, release, gain and mix controls. Ratio settings above 1:1 produce downward compression, while settings below 1:1 produce upward compression. Along with the main mix, each band has a mix control that adjusts the balance between the compressed and uncompressed signals. Input and output meters display stereo information, while gain reduction meters display the amount of downward compression for each band. The crossover points determine the frequencies processed in each band. Presets provide starting points for different scenarios. All controls are fully automatable.</p>
+<div class="link-row">
+<a class="button button-outline" href="pluginInstallFiles/CURBmacIntelInstallerVST3.pkg">VST3 Mac (Intel)</a>
+<a class="button button-outline" href="https://youtu.be/A0rWApqjXS8" target="_blank" rel="noopener noreferrer">Video demo</a>
+<a class="button button-outline" href="https://github.com/bbgreene/CURB" target="_blank" rel="noopener noreferrer">Source code</a>
+</div>
+</details>
+</div>
+</article>
+<article class="tool-card" id="colouraum">
+<img src="images/COLOURAUM.png" alt="COLOURAUM audio plug-in interface" loading="lazy">
+<div>
+<span class="eyebrow">Audio plug-in</span>
+<h3>COLOURAUM</h3>
+<p>A multifunctional reverb for conventional rooms, modulated spaces and nonlinear effects.</p>
+<details>
+<summary>Technical details and downloads</summary>
+<p>A multifunctional reverb VST3 plug-in made with JUCE. The unit produces sounds ranging from traditional rooms to distorted, nonlinear spaces. High-pass and low-pass filters shape incoming audio. Six early reflection types can be modulated in time before feeding the reverb stage. Size, pre-delay and damping controls shape the reverb, while the freeze function creates a continuous reverberant loop. A gate produces nonlinear tails, and tremolo offers movement before or after the reverb. The output stage contains an overall mix and a width control for the stereo image. All controls are fully automatable.</p>
+<div class="link-row">
+<a class="button button-outline" href="pluginInstallFiles/COLOURAUMmacIntelInstallerVST3.pkg">VST3 Mac (Intel)</a>
+<a class="button button-outline" href="https://youtu.be/solrkJ1t87I" target="_blank" rel="noopener noreferrer">Video demo</a>
+<a class="button button-outline" href="https://github.com/bbgreene/COLOURAUM" target="_blank" rel="noopener noreferrer">Source code</a>
+</div>
+</details>
+</div>
+</article>
+<article class="tool-card" id="tamper">
+<img src="images/TAMPER.png" alt="TAMPER audio plug-in interface" loading="lazy">
+<div>
+<span class="eyebrow">Audio plug-in</span>
+<h3>TAMPER</h3>
+<p>A distortion and amp simulation tool ranging from subtle saturation to more extreme waveshaping.</p>
+<details>
+<summary>Technical details and downloads</summary>
+<p>A waveshaping and amp simulation VST3 plug-in made with JUCE. High-pass and low-pass filters shape the incoming audio. Four model types, soft clip, hard clip, saturation and broken, provide distinct waveshaping, with drive and four-times oversampling. The cabinet simulation uses convolution and offers a selection of cabinet and microphone impulse responses. A limiter provides threshold and release controls. The output stage contains polarity, mix and output level controls. All controls are fully automatable.</p>
+<div class="link-row">
+<a class="button button-outline" href="pluginInstallFiles/TAMPERmacIntelInstallerVST3.pkg">VST3 Mac (Intel)</a>
+<a class="button button-outline" href="https://youtu.be/5yPcwL8q6pY" target="_blank" rel="noopener noreferrer">Video demo</a>
+<a class="button button-outline" href="https://github.com/bbgreene/TAMPER" target="_blank" rel="noopener noreferrer">Source code</a>
+</div>
+</details>
+</div>
+</article>
+<article class="tool-card" id="bouy">
+<img src="images/BOUY.png" alt="BOUY audio plug-in interface" loading="lazy">
+<div>
+<span class="eyebrow">Audio plug-in</span>
+<h3>BOUY</h3>
+<p>A tremolo and ring modulation tool with two LFOs and optional tube-style distortion.</p>
+<details>
+<summary>Technical details and downloads</summary>
+<p>A tremolo VST3 plug-in made with JUCE, ranging from delicate volume movement to ring modulation. Tube-style distortion uses waveshaping before the tremolo stage. LFO1 modulates the incoming signal, with sine, triangle, square and ring waveforms. LFO2 modulates the rate of LFO1 to introduce changing movement. A multiplier applies whole-number ratios to the rate of LFO1. All controls are fully automatable.</p>
+<div class="link-row">
+<a class="button button-outline" href="pluginInstallFiles/BOUYmacIntelInstallerVST3.pkg">VST3 Mac (Intel)</a>
+<a class="button button-outline" href="https://github.com/bbgreene/BOUY" target="_blank" rel="noopener noreferrer">Source code</a>
+</div>
+</details>
+</div>
+</article>
+<article class="tool-card" id="sig">
+<img src="images/SIG.png" alt="SIG audio plug-in interface" loading="lazy">
+<div>
+<span class="eyebrow">Audio plug-in</span>
+<h3>SIG</h3>
+<p>A signal generator for testing, measurement and calibration, with sine, white noise and pink noise.</p>
+<details>
+<summary>Technical details and downloads</summary>
+<p>A signal generator VST3 plug-in made with JUCE. It can be used to test and tune sound systems, take SPL measurements, sweep through frequency ranges, tune instruments and check left and right speaker wiring. It contains sine, white noise and pink noise signals. The sine wave sweeps from 20 Hz to 21,000 Hz, with shortcut buttons. Gain is adjustable from -120 dB to 0 dB. The signal can be routed to the left, right or both outputs. All controls are fully automatable.</p>
+<div class="link-row">
+<a class="button button-outline" href="pluginInstallFiles/SIGmacIntelInstallerVST3.pkg">VST3 Mac (Intel)</a>
+<a class="button button-outline" href="https://github.com/bbgreene/SIG" target="_blank" rel="noopener noreferrer">Source code</a>
+</div>
+</details>
+</div>
+</article>
+<article class="tool-card" id="til">
+<img src="images/TIL.png" alt="TIL audio plug-in interface" loading="lazy">
+<div>
+<span class="eyebrow">Audio plug-in</span>
+<h3>TIL</h3>
+<p>A utility for phase, gain, delay, stereo balance and mid-side width.</p>
+<details>
+<summary>Technical details and downloads</summary>
+<p>An audio utility VST3 plug-in made with JUCE. TIL manipulates the phase, volume, stereo image and timing of an incoming signal. Phase inverts polarity by 180 degrees. Gain ranges from -66 dB to +24 dB, while delay offsets the output by a chosen number of samples. Balance pans the signal left or right. The mid-side width control ranges from mono at 0%, through an unchanged image at 100%, to side-only information at 500%. All controls are fully automatable.</p>
+<div class="link-row">
+<a class="button button-outline" href="pluginInstallFiles/TILmacIntelInstallerVST3.pkg">VST3 Mac (Intel)</a>
+<a class="button button-outline" href="https://github.com/bbgreene/TIL" target="_blank" rel="noopener noreferrer">Source code</a>
+</div>
+</details>
+</div>
+</article>
+</div>
+</div>
+</section>
+</main>
+  <footer class="site-footer">
+    <span>© <span data-current-year>2026</span> Brian B Greene</span>
+    <div>
+<a class="text-link" href="music.html">Music</a> <a class="text-link" href="projects.html">Explorations</a> <a class="text-link" href="aboutme.html">About and contact</a>
+</div>
+    <span class="footer-note">Design adapted from <a href="https://html5up.net/">HTML5 UP</a>.</span>
+  </footer>
+  <script src="assets/js/site.js" defer>
+</script>
+</body>
+</html>
